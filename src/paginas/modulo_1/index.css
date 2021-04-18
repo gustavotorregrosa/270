@@ -1,0 +1,9 @@
+.absoluto {
+    position: absolute;
+    top: 0em;
+    width: 100%;
+}
+
+.relativo {
+    position: relative;
+}

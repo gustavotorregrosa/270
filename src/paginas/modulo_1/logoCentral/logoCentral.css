@@ -1,0 +1,12 @@
+.logoCentral {
+    height: 5em;
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    opacity: 1;
+    transition: all 3s ease-in-out;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top; 
+}

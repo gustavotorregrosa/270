@@ -1,0 +1,12 @@
+.sideMessage {
+    height: 88%;
+    width: 1em;
+    /* background-color: red; */
+    position: absolute;
+    top: 5%;
+    margin: 2em;
+    transition: all 1s ease-in-out;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top; 
+}
