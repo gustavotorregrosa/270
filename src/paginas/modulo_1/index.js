@@ -14,14 +14,21 @@ class Modulo_1 extends Component {
     }
 
 
+    arreglaEstado = () => {
+        this.setState({
+            topPresentacion: '-100%',
+            topContenido: '0'
+        })
+    }
+
     componentDidMount = () => {
         setTimeout(() => {
             document.addEventListener('wheel', () => {
+                this.arreglaEstado()
+            })
 
-                this.setState({
-                    topPresentacion: '-100%',
-                    topContenido: '0'
-                })
+            document.addEventListener('touchmove', () => {
+                this.arreglaEstado()
             })
 
         }, 3000)
